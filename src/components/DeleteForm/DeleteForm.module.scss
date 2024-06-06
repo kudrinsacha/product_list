@@ -1,0 +1,9 @@
+.deleteForm {
+  @apply flex flex-col gap-8 items-center;
+  .deleteTitle {
+    @apply text-xl;
+  }
+  .deleteBtns {
+    @apply flex gap-4;
+  }
+}

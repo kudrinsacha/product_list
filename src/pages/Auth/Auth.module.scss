@@ -1,0 +1,6 @@
+.auth {
+  @apply flex flex-col gap-12;
+  .main {
+    @apply flex justify-center items-center;
+  }
+}

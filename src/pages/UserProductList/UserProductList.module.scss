@@ -1,0 +1,6 @@
+.productList {
+  @apply p-4;
+  .productListItems {
+    @apply flex flex-col gap-8;
+  }
+}

@@ -1,0 +1,15 @@
+.form {
+  @apply flex flex-col gap-4;
+  label {
+    @apply text-gray-600;
+  }
+  input {
+    @apply text-white;
+  }
+  fieldset {
+    @apply border-blue-500;
+  }
+  input:hover + fieldset {
+    @apply border-blue-500;
+  }
+}

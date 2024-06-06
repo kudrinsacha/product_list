@@ -1,0 +1,24 @@
+.productCard {
+  @apply flex justify-between gap-6;
+  .productImgContainer {
+    @apply w-40 h-auto;
+    .productImg {
+      @apply w-full h-auto;
+    }
+  }
+  .productBody {
+    @apply flex flex-col justify-between gap-4 mr-auto;
+    .productInfo {
+      @apply flex flex-col gap-4 max-w-5xl;
+    }
+    .productBtns {
+      @apply flex gap-4;
+      button {
+        @apply min-w-24;
+      }
+    }
+  }
+  .productPrice {
+    @apply text-xl justify-end self-center whitespace-nowrap;
+  }
+}

@@ -1,0 +1,9 @@
+.header {
+  @apply flex items-center text-blue-500 uppercase w-full px-52 py-8 bg-neutral-800;
+  .pages {
+    @apply flex gap-4;
+  }
+  .auth {
+    @apply ml-auto whitespace-nowrap;
+  }
+}

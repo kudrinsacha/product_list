@@ -1,0 +1,9 @@
+.loading {
+  @apply fixed w-full h-full top-0 left-0 bg-black z-full bg-opacity-50 hidden;
+  .loadingIcon {
+    @apply animate-spin absolute right-0 top-0 left-0 bottom-0 m-auto;
+  }
+}
+.active {
+  @apply block;
+}

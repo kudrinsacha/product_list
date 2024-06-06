@@ -1,0 +1,5 @@
+.deleteBtn {
+  button:disabled {
+    @apply border-neutral-700 text-neutral-700;
+  }
+}

@@ -1,0 +1,8 @@
+.notFound {
+  @apply flex flex-col items-center justify-center h-screen;
+  .main {
+    a {
+      @apply text-blue-500;
+    }
+  }
+}

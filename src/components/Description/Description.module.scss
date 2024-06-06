@@ -1,0 +1,8 @@
+.description {
+  .descriptionText {
+    @apply max-w-2xl;
+  }
+  .btn {
+    @apply text-blue-600 text-sm lowercase ml-1;
+  }
+}

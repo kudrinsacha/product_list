@@ -1,0 +1,12 @@
+.form {
+  @apply flex items-center;
+  .formImg {
+    @apply flex flex-col items-center gap-4;
+    .uploadImg {
+      @apply size-52;
+    }
+  }
+  .formControl {
+    @apply flex flex-col gap-4 p-4;
+  }
+}

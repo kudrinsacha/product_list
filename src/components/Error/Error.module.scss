@@ -1,0 +1,12 @@
+.error {
+  @apply max-w-fit p-8 fixed top-0 left-0 right-0 mr-auto ml-auto bg-neutral-700 transition-transform -translate-y-24;
+  .errorText {
+    @apply text-red-500;
+  }
+  .closeBtn {
+    @apply absolute -right-8 top-0;
+  }
+}
+.active {
+  @apply translate-y-0;
+}
