@@ -49,7 +49,7 @@ const AuthForm = ({ submitForm, type }: AuthFormProps) => {
           ),
         }}
       />
-      <MyButton type="submit" variant="outlined">
+      <MyButton type="submit" variant="outlined" onClick={() => window.ym(97505222, 'reachGoal', 'btn-click')}>
         {type === 'login' ? 'Sign in' : 'Sign Up'}
       </MyButton>
     </form>

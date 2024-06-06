@@ -7,7 +7,7 @@ const AllProductsList = () => {
   const products = useGetProducts();
   return (
     <div className={styles.productList}>
-      <div className={styles.productListItems}>
+      <div className={`${styles.productListItems} dataLayer`}>
         {products.map((product) => (
           <ProductCard product={product} key={product.id} />
         ))}
